@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to top, #a1c4fd, #c2e9fb); /* Gradient from light blue to a sky blue */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+    color: #333;  /* General text color */
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .logo {
+    width: 120px;
+    height: auto;
+  }
+  
+  .form-container {
+    background: linear-gradient(to right, #6b46c1, #553c9a); /* Gradient background for the form */
+    color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  
+  label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    border: 2px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #6b46c1; 
+    box-shadow: 0 0 5px rgba(107, 70, 193, 0.5);
+  }
+  
+  button {
+    margin-top: 1.5rem;
+    width: 100%;
+    padding: 12px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #e64a19;  /* Darker Orange on hover */
+  }
+  
+  #thankYouMessage {
+    margin-top: 1.5rem;
+    text-align: center;
+    color: #4caf50;  
+    font-weight: 500;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  @media (max-width: 480px) {
+    .form-container {
+      padding: 1.2rem;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  
+    input,
+    button {
+      font-size: 0.95rem;
+      padding: 10px;
+    }
+  }
+  

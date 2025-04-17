@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GigFloww | Sign-Up</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="form-container">
+    <h2>Join GigFloww</h2>
+    <form id="signupForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" required />
+
+      <label for="category">Skill Category:</label>
+      <input type="text" id="category" required />
+
+      <label for="portfolio">Portfolio Link:</label>
+      <input type="url" id="portfolio" required />
+
+      <button type="submit">Sign Up</button>
+    </form>
+    <p id="thankYouMessage" class="hidden">✅ Thank you for signing up!</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
